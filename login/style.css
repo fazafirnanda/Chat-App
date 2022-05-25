@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    height: 100px;
+    background-color: #1E71FF;
+}
+.containernavbar{
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    margin: 40px;
+    margin-right: 20px ;
+    padding: 0%;
+    flex-direction: row;
+
+}
+.containernavbar >a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+.tryitfree{
+    border: 1px;
+    border-radius: 45px;
+    background-color: rgba(151, 151, 151, 0.32);
+    padding: 10px;
+}
+.gambar1{
+    position:absolute;
+    left: 0px;
+    margin: 9px;
+    margin-left: 20px;
+    width: 250px;
+
+}
+
+
+.login{
+    text-align: center;
+    margin-top: 20px;
+}
+.modal-content{
+    margin: 360px;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+.modal-body{
+    text-align: center;
+    margin-top: 40px;
+    margin: 40px;
+}
+.formemail{
+    width: 450px;
+    text-align: center;
+    height: 45px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.formpassword{
+    width: 450px;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+
+
+}
+.lupapassword{
+    margin-right: 10px;
+    float: right;
+    margin: 10px;
+    color: #1E71FF;
+
+}
+.submit{
+    width: 450px;
+    height: 45px;
+    background-color:#1E71FF;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+.container-hr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.hr1{
+    width: 40%;
+}
+.atau{
+    top: 50%;
+    left: 47%;
+
+    
+
+}
+.hr2{
+    width: 40%;
+}
+.google{
+    width: 450px;
+    height: 45px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.facebook{
+    width: 450px;
+    height: 45px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.belum{
+    margin: 15px;
+
+}
+span{
+    color: #1E71FF;
+}
+.footer{
+    margin: 10px;
+}
+
+
+

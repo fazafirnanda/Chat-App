@@ -1,0 +1,165 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    height: 100px;
+    justify-content: space-around;
+    background-color: #1E71FF;
+}
+.containernavbar{
+    justify-content: space-around;
+    float: right;
+    margin: 40px;
+    margin-right: 20px ;
+    padding: 0%;
+    flex-direction: row;
+
+}
+.containernavbar >a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-inline: 25px;
+    font-family: 'Poppins';
+}
+.tryitfree{
+    border: 1px;
+    border-radius: 45px;
+    background-color: rgba(151, 151, 151, 0.32);
+    padding: 10px;
+}
+.gambar1{
+    position:absolute;
+    left: 0px;
+    margin: 9px;
+    margin-left: 20px;
+    width: 250px;
+
+}
+.login{
+    text-align: center;
+    margin-top: 20px;
+}
+.modal-content{
+    margin: 360px;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.container-form{
+    width: 50vw;
+    margin: 25vw;
+    margin-top: 100px;
+    flex-direction: column;
+
+}
+.daftarakun{
+    margin-left: 10px;
+    margin: 40px;
+}
+.form-group{
+    margin: 20px;
+    position: relative;
+    
+}
+.label-form{
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Poppins';
+
+}
+.input-form{
+    margin-top: 3px;
+    width: 96%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 0%;
+}
+.small1{
+    font-size: small;
+    margin-top: auto;
+}
+.daftar{
+    width: 100%;
+    margin-top: 30px;
+    background-color: #1E71FF;
+    height: 30px;
+    text-decoration: white;
+}
+.container-atau{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hr{
+    width: 45%;
+}
+.hr2{
+    width: 45%;
+}
+
+.loginsosmed{
+    width: 100%;
+    position: relative;
+    margin-right: 25px;
+
+    flex-direction: column;
+    display: flex;
+
+
+}
+.container-button{
+    width: 95%;
+    margin: 20px;
+    height: 50px;
+    position: relative;
+    display: block;
+    text-align: center;
+
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.gambargoogle{
+    position: absolute;
+    left: 16px;
+    width: 25px;
+    top: 13px;
+
+}
+.container-button2{
+    width: 95%;
+    margin-top: 1rem;
+    margin: 20px;
+    margin-bottom: 1rem;
+    height: 50px;
+    display: block;
+    text-align: center;
+    position: relative;
+    text-decoration: none   ;
+    border-radius: 10px;
+
+    border: 2px;
+    color: black;
+    padding: 10px;
+
+}
+.gambarfacebook{
+    left: 0%;
+    position: absolute;
+    width: 60px;
+    top: 5px;
+}
+
